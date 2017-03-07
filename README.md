@@ -7,18 +7,18 @@ Security is important and sometimes a user and password pair is needed in a scri
   
 
 ####How does it work?
-The script utilizes functions shared by [JAMF IT git hub account](https://github.com/jamfit) to encrypt input gathered by System Event Dialog boxes. As of right now up to two  variables can be input for encryption by this script. The first pop up will ask for User information and the second pop up will be optional and ask for password information. The password popup will not display what is typed in the input field as is.
+The script utilizes functions shared by [JAMF IT github account](https://github.com/jamfit) to encrypt input gathered by System Event Dialog boxes. As of right now up to two  variables can be input for encryption by this script. The first pop up will ask for User information and the second pop up will be optional and ask for password information. The password popup will not display what is typed in the input field as is.
 
 ####How to use it:
 Well you can run it via command line, but if you want to make it extra easy in a team environment.
-Add the script to your JSS. Make a policy that runs the script and make it available in Self Service. Scope it based on LDAP User groups or Department based Computer Groups that would need  access to it and have them login to Self Service torun the script. Easy peasy and if you add a nice icon to the Self Service policy it can be easy to find too. This will also enforce the idea to use Self Service for tech groups too.
+Add the script to your JSS. Make a policy that runs the script and make it available in Self Service. Scope it based on LDAP User groups or Department based Computer Groups that would need  access to it and have them login to Self Service to run the script. Easy peasy and if you add a nice icon to the Self Service policy it can be easy to find too. This will also enforce the idea to use Self Service for tech groups too.
 
 ####Legal stuff:
 
-Since this utilitzes functions that were created and shared by JAMF IT this legal info has to be included in the script it seems. Anyone that wants to the Awesome power of thier functions and anything else they post should be sure to inlcude this in the scirpt and give credti where it's due.
+Since this utilizes functions that were created and shared by JAMF IT this legal info has to be included in the script it seems. Anyone that wants to the Awesome power of their functions and anything else they post should be sure to include this in the script and give credit where it's due.
 
 Links:
-[JAMF IT git hub account](https://github.com/jamfit)  
+[JAMF IT github account](https://github.com/jamfit)  
 [Encrypted-Script-Parameters Git Repo](https://github.com/jamfit/Encrypted-Script-Parameters)
 
 
